@@ -18,3 +18,8 @@ mixin iframe(url)
 
 mixin interview--img(url, alt)
   img(src="../utilities/images/"+ url, alt=""+alt)
+
+mixin topic--item(url, alt, content)
+  .topics__content__item
+    img(src="../utilities/images/" + url, alt="" + alt)
+    p=content
