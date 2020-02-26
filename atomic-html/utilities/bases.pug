@@ -23,3 +23,7 @@ mixin topic--item(url, alt, content)
   .topics__content__item
     img(src="../utilities/images/" + url, alt="" + alt)
     p=content
+
+mixin footer-icon(url, clase)
+  a
+    i(href="" + url, target="_blank", class="" + clase )
