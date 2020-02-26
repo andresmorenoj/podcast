@@ -14,4 +14,7 @@ mixin menu--items
 
 mixin iframe(url)
   .iframe--properties.iframe--position
-    iframe(src="https://open.spotify.com/embed-podcast/show/"+url allow="encrypted-media")
+    iframe(src="https://open.spotify.com/embed-podcast/show/"+ url allow="encrypted-media")
+
+mixin interview--img(url, alt)
+  img(src="../utilities/images/"+ url, alt=""+alt)
