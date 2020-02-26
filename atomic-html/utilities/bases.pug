@@ -11,3 +11,7 @@ mixin menu--items
     each menu in menu_items
       li
         a(href="#")=menu
+
+mixin iframe(url)
+  .iframe--properties.iframe--position
+    iframe(src="https://open.spotify.com/embed-podcast/show/"+url allow="encrypted-media")
